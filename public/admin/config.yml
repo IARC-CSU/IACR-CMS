@@ -1,0 +1,117 @@
+# disable in production:  
+local_backend: true
+
+# command to run a local Decap instance: npx decap-server
+backend:
+  name: git-gateway
+  #name: github
+  # squash_merges: true
+  # repo: IARC-CSU/IACR-CMS.git  
+  branch: main
+  #auth_endpoint: https://gco-cms.netlify.app/admin/auth
+  # publish_mode: editorial_workflow
+
+media_folder: "public/images/upload"
+public_folder: "/images"
+
+site_url: https://www.the-iacr.org
+
+i18n:
+  # Required and can be one of multiple_folders, multiple_files or single_file
+  # multiple_folders - persists files in `<folder>/<locale>/<slug>.<extension>`
+  # multiple_files - persists files in `<folder>/<slug>.<locale>.<extension>`
+  # single_file - persists a single file in `<folder>/<slug>.<extension>`
+  structure: multiple_folders
+
+  # Required - a list of locales to show in the editor UI
+  locales: [en, fr, es]
+
+  # Optional, defaults to the first item in locales.
+  # The locale to be used for fields validation and as a baseline for the entry.
+  default_locale: en
+
+# SEO anchor:
+seo: &seo
+  name: "SEOmetaData"
+  label: "SEO"
+  widget: "object"
+  collapsed: true
+  fields: 
+    - { name: "metaTitle", label: "SEO Title", widget: "string", default: "{{ title }}" , required: false }
+    - { name: "metaDescription", label: "SEO Description", widget: "string", pattern: [".{20,160}", "between 20 and 160 characters"], required: false, hint: "must be between 20 and 160 characters" }
+    - { name: "metaImage", label: "SEO image", widget: "image", required: false}
+    - { name: "keywords", label: "keywords", widget: "string", hint: "keywords are comma seperated", required: false }
+
+collections:
+  - name: "globalContent"
+    label: "Global Content (Admin)"
+    create: false
+    files: 
+      - label: "buttons"
+        name: "Buttons"
+        file: "content/site/buttons.md"  
+        fields: 
+          - label: "next"
+            name: "next"
+            i18n: true
+            widget: "string"        
+          - label: "previous"
+            name: "previous"
+            i18n: true
+            widget: "string"        
+          - label: "close"
+            name: "close"
+            i18n: true
+            widget: "string"        
+          - label: "article: more"
+            name: "article"
+            i18n: true
+            widget: "string"
+            default: "read more"
+          - label: "form: send"
+            name: "send"
+            i18n: true
+            widget: "string"
+        
+  # SINGLE PAGES
+  - name: "pages"
+    label: "Pages"
+    create: true
+    folder: "content/pages"
+    publish_mode: editorial_workflow
+    i18n: true
+    fields:
+      - { name: "title", label: "Title", widget: "string" ,i18n: true}
+      - { name: "picture", label: "Picture", widget: "image"}
+      - { name: "content", label: "Content", widget: "markdown" ,i18n: true, required: false}
+      - *seo
+  
+  - name: "news"                # used in filenames, must be unique
+    label: "News"               # shows in CMS sidebar
+    folder: "content/news"      # where markdown files live
+    create: true                 # enables "New Post" button
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    publish_mode: editorial_workflow
+    i18n: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" ,i18n: true}
+      - { label: "Date", name: "date", widget: "datetime" ,i18n: duplicate}
+      - { label: "Picture", name: "picture", widget: "image" ,i18n: duplicate}  # 👈 added
+      - { label: "Description", name: "description", widget: "text" ,i18n: true}
+      - { label: "Body", name: "body", widget: "markdown" ,i18n: true }
+
+  - name: "annual_meetings"                # used in filenames, must be unique
+    label: "Annual Meetings"               # shows in CMS sidebar
+    folder: "content/annual_meetings"      # where markdown files live
+    create: true                      # enables "New Post" button
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    publish_mode: editorial_workflow
+    i18n: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" ,i18n: true}
+      - { label: "City", name: "city", widget: "string" ,i18n: true}
+      - { label: "Date of the event", name: "date_event", widget: "string" ,i18n: true}
+      - { label: "Date of publication", name: "date", widget: "datetime" ,i18n: duplicate}
+      - { label: "Picture", name: "picture", widget: "image" ,i18n: duplicate}  # 👈 added
+      - { label: "Description", name: "description", widget: "text" ,i18n: true}
+      - { label: "Body", name: "body", widget: "markdown" ,i18n: true }

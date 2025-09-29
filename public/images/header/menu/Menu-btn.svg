@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.90472 25">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>Menu-BTN</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <polygon class="cls-1" points="0 21.32 0 25 18.905 25 18.905 21.32 4.062 21.32 0 21.32"/>
+        <rect class="cls-1" width="18.90472" height="3.67992"/>
+        <polygon class="cls-1" points="4.062 14.34 11.161 14.34 11.161 10.66 0 10.66 0 14.34 4.062 14.34"/>
+      </g>
+    </g>
+  </g>
+</svg>
