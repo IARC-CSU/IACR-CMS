@@ -10,6 +10,12 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
+  server: {
+    host: true,                // allow external access (0.0.0.0)
+    allowedHosts: [
+      'galeate-avifaunal-laurel.ngrok-free.dev'  // your ngrok URL here
+    ]
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))

@@ -7,11 +7,13 @@
     "node": "^20.19.0 || >=22.12.0"
   },
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host 0.0.0.0",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "cloudflared": "^0.7.1",
+    "decap-cms-app": "^3.8.4",
     "vue": "^3.5.22"
   },
   "devDependencies": {

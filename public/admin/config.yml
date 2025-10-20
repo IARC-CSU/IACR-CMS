@@ -3,8 +3,8 @@ local_backend: true
 
 # command to run a local Decap instance: npx decap-server
 backend:
-  name: git-gateway
-  #name: github
+  # name: git-gateway
+  name: github
   # squash_merges: true
   # repo: IARC-CSU/IACR-CMS.git  
   branch: main
@@ -82,7 +82,8 @@ collections:
     i18n: true
     fields:
       - { name: "title", label: "Title", widget: "string" ,i18n: true}
-      - { name: "picture", label: "Picture", widget: "image"}
+      - { name: "info", label: "Page description", widget: "string" ,i18n: true}
+      - { name: "picture", label: "Picture", widget: "image", required: false}
       - { name: "content", label: "Content", widget: "markdown" ,i18n: true, required: false}
       - *seo
   

@@ -6,7 +6,7 @@
     <h1 align="center">IACR CMS</h1>
     <p align="center">
       Visit <a href="https://decapcms.org/" target="_blank" rel="noopener">https://decapcms.org/</a> to read the
-      documentation of Decap CMS, and go to <a href="./admin/"> the ADMIN </a>.
+      documentation of Decap CMS, and go to <a href="./index.html"> the ADMIN </a>.
     </p>
   </div>
 
