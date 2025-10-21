@@ -1,7 +1,7 @@
 ---
 title: About IACR | Overview
 info: About IACR | Overview
-picture: ""
+picture: /images/training-pink-2.jpg
 content: >-
   he International Association of Cancer Registries (IACR) was founded in 1966,
   as a professional society dedicated to promoting the aims and activities of

@@ -1,6 +1,6 @@
 ---
-title: "About IACR | Governance | IARC and GICR "
-info: "About IACR | Governance | IARC and GICR "
+title: "About IACR | Governance | IACR and GICR "
+info: "About IACR | Governance | IACR and GICR "
 content: >-
   Following the implementation of the GICR, registry activities now underway in
   each region directly target current and future IACR members. As a key partner

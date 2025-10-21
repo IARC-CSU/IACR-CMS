@@ -3,9 +3,7 @@ title: "About IACR | Contact us "
 info: "About IACR | Contact us "
 content: |-
   Please contact the IACR Secretariat at: 
-
-   
-
+  
   International Association of Cancer Registries 
   c/o Cancer Surveillance Branch 
 
