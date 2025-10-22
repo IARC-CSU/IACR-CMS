@@ -171,13 +171,15 @@ function processMarkdownFiles() {
             // Get filename without extension
             const fileName = path.basename(file, '.md');
             
-            // Extract title and content
+            // Extract title, content, and picture
             const title = frontmatter.title || frontmatter.info || fileName;
             const htmlContent = markdownToHtml(frontmatter.content || content || '');
+            const picture = frontmatter.picture || frontmatter.image || '';
             
             // Add to result object
             result[`${fileName}_title`] = title;
             result[`${fileName}_desc`] = htmlContent;
+            result[`${fileName}_image`] = picture;
             
             console.log(`Processed: ${fileName}`);
         });

@@ -8,7 +8,7 @@ content: >-
   Your privacy on the Internet is of utmost importance to the International Association of Cancer Registries (IACR) a professional society dedicated to fostering the aims and activities of cancer registries worldwide. 
 
 
-  This privacy statement describes IACR's policy concerning the gathering and sharing of visitors' information through the IACR website, applies to all "IACR sites" operated by IACR including, [www.iacr.com.fr](http://www.iacr.com.fr/) and any specific versions and any and all scientific, technical, contractual, programme, portals, news, educational materials, publications, guides, smartphone services, mobile versions, presentations, abstracts, and other information available on the Website, or associated domains hosting IACR and its annual scientific conferences. 
+  This privacy statement describes IACR's policy concerning the gathering and sharing of visitors' information through the IACR website, applies to all "**IACR sites**" operated by IACR including, [https://www.the-iacr.org ](https://www.the-iacr.org)and any specific versions and any and all scientific, technical, contractual, programme, portals, news, educational materials, publications, guides, smartphone services, mobile versions, presentations, abstracts, and other information available on the Website, or associated domains hosting IACR and its annual scientific conferences. 
 
 
   **What information does IACR collect?** 
@@ -41,7 +41,7 @@ content: >-
   **Normal website usage** 
 
 
-  The information gathered during general browsing of the “IACR.fr” domain is used to analyse trends and usage of the IACR site and to improve the usefulness of the site. It is not connected with any personal information. 
+  The information gathered during general browsing of the “<https://www.the-iacr.org>” domain is used to analyse trends and usage of the IACR site and to improve the usefulness of the site. It is not connected with any personal information. 
 
 
   **Personally identifiable information** 
@@ -72,7 +72,7 @@ content: >-
   **Opting out and changing your information** 
 
 
-  At any time, you can cancel or modify your information by returning to the webpage where you first provided the information and contacting the focal point for that page/IACR department. Where contact details are not provided on the page, you can refer to [this page](http://www.iacr.com.fr/index.php?option=com_content&view=article&id=21&Itemid=290) for further information.  
+  At any time, you can cancel or modify your information by returning to the webpage where you first provided the information and contacting the focal point for that page/IACR department. Where contact details are not provided on the page, you can refer to [this page](/en/about-iacr/contact-us) for further information.  
 
 
   **Security** 

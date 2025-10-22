@@ -1,7 +1,7 @@
 ---
 title: "About IACR | Virtual Museum "
 info: "About IACR | Virtual Museum "
-content: blank
+content: Coming soon
 SEOmetaData:
   metaTitle: "{{ title }}"
 ---
