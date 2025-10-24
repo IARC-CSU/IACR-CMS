@@ -2,7 +2,7 @@
 title: "Tools & Standards | Check/Conversion programs  "
 info: "Tools & Standards | Check/Conversion programs  "
 content: >-
-  he publication of the third edition of the International Classification of
+  The publication of the third edition of the International Classification of
   Diseases for Oncology (ICD-O-3) required the preparation of programs to
   convert and to validate data collected by cancer registries. A variety of
   methods are employed to check validity in cancer registries. A widely used

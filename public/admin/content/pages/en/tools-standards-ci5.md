@@ -16,24 +16,15 @@ content: >-
   The **Cancer Incidence in Five Continents** websites and databases are under transition:  
 
 
-  <div class="row">
-
-  <div class="col">Analytic tools for examining incidence within or across volumes are available on the dedicated [CI5 2.0 data visualisation tool ](../../ci5-2.0)
+  <div class="row"><div class="col">Analytic tools for examining incidence within or across volumes are available on the dedicated [CI5 2.0 data visualisation tool ](../../ci5-2.0)
 
   ![](/images/ci5_2.0_b.png)
 
-  </div>
-
-
-  <div class="col">
+  </div><div class="col">
 
   The [CI5 website at IARC](https://ci5.iarc.who.int) is still available and is being transitioned across to the IACR website.
 
-  ![](/images/ci5_v1.png)
-
-  </div>
-
-  </div>
+  ![](/images/ci5_v1.png)</div></div>
 SEOmetaData:
   metaTitle: "{{ title }}"
 ---

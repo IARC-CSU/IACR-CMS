@@ -31,17 +31,17 @@ content: >-
   **ICD-O-3.2**  
 
 
-  * [A summary of the main changes](http://www.iacr.com.fr/images/Newsflash/3.1%20to%203.2%20-%20Summary%20of%20main%20changes.pdf) 
+  * [A summary of the main changes](https://gco.iarc.who.int/media/iacr/docs/3.1%20to%203.2%20-%20Summary%20of%20main%20changes.pdf) 
 
-  * [Terms that are changing behaviour](http://www.iacr.com.fr/images/Newsflash/3.1%20to%203.2%20-%20Terms%20that%20are%20changing%20behaviour.pdf) 
+  * [Terms that are changing behaviour](https://gco.iarc.who.int/media/iacr/docs/3.1%20to%203.2%20-%20Terms%20that%20are%20changing%20behaviour.pdf) 
 
-  * [New codes and their terms](http://www.iacr.com.fr/images/Newsflash/3.1%20to%203.2%20-%20New%20codes%20and%20their%20terms.pdf) 
+  * [New codes and their terms](https://gco.iarc.who.int/media/iacr/docs/3.1%20to%203.2%20-%20New%20codes%20and%20their%20terms.pdf) 
 
-  * [Deleted codes and their terms](http://www.iacr.com.fr/images/Newsflash/3.1%20to%203.2%20-%20Deleted%20codes%20and%20their%20terms-09102020.pdf) 
+  * [Deleted codes and their terms](https://gco.iarc.who.int/media/iacr/docs/3.1%20to%203.2%20-%20Deleted%20codes%20and%20their%20terms-09102020.pdf) 
 
-  * [Updated table: "Groups of malignant neoplasms considered to be histologically different for the purpose of defining multiple tumours"](http://www.iacr.com.fr/images/Newsflash/Multiple_primaries_ICD-O-3.2_06102020.xls) to be used with ICD-O-3.2 (The rest of the multiple primary rules remain unchanged.) 
+  * [Updated table: "Groups of malignant neoplasms considered to be histologically different for the purpose of defining multiple tumours"](https://gco.iarc.who.int/media/iacr/docs/Multiple_primaries_ICD-O-3.2_06102020.xls) to be used with ICD-O-3.2 (The rest of the multiple primary rules remain unchanged.) 
 
-  * [A listing of all additions, changes and revisions from ICD-O-3.1](http://www.iacr.com.fr/images/Newsflash/ICD-O-3.2Changes_update09102020.xls) 
+  * [A listing of all additions, changes and revisions from ICD-O-3.1](https://gco.iarc.who.int/media/iacr/docs/CD-O-3.2Changes_update09102020.xls) 
 
 
   **ICD-O-3.1** [https://iris.who.int/handle/10665/96612](<>) 

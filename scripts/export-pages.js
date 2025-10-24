@@ -217,7 +217,7 @@ function markdownToHtml(markdown) {
 // Helper function to apply inline formatting
 function applyInlineFormatting(text) {
     return text
-        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+        .replace(/\*\*(.*?)\*\*/g, '$1') // Remove bold formatting completely
         .replace(/\*(.*?)\*/g, '<em>$1</em>')
         .replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '<img src="$2" alt="$1" />')
         .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')
